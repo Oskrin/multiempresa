@@ -14,6 +14,7 @@ while ($row = pg_fetch_row($consulta)) {
     $_SESSION['user'] = $row[10];
     $_SESSION['id_empresa'] = $_POST['id_empresa'];
 }
+
 if ($cont == 1) {
 //$data=1;
     if ($_SESSION['cargo'] == 1) {
